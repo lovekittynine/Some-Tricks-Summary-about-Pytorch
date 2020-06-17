@@ -13,3 +13,7 @@ Keep Recording Some Tricks about Pytorch
       name='hello' 
       string = f"name is : {name}" # f开头的字符串支持{}内python运算
       string = 'name is : {}'.format(name)(等价)
+
+## 2020.6.17
+
+5.单机多卡分布式训练时，在命令行加入 --master_port==23456 解决地址被占用的错误
